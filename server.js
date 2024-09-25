@@ -1,6 +1,5 @@
 const app = require('./api/chat');
-const port = process.env.PORT || 3000;
-
-app.listen(port, () => {
-    console.log(`Servidor de chatbot ejecutándose en http://localhost:${port}`);
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => {
+    console.log(`Servidor de chatbot ejecutándose en el puerto ${PORT}`);
 });
