@@ -39,22 +39,24 @@ app.post('/api/chat', async (req, res) => {
 
     const userPrompt = prompt.toLowerCase();
 
-    const options = {
-        extract: (item) => item.prompt.toLowerCase(),
-    };
-    const result = fuzzy.filter(userPrompt, data, options);
-    const bestMatch = result[0] ? result[0].original : null;
+    try {
+        const options = {
+            extract: (item) => item.prompt.toLowerCase(),
+        };
+        const result = fuzzy.filter(userPrompt, data, options);
+        const bestMatch = result[0] ? result[0].original : null;
 
-    if (bestMatch) {
-        return res.json({ response: bestMatch.response });
-    } else {
-        try {
+        if (bestMatch) {
+            return res.json({ response: bestMatch.response });
+        } else {
             const huggingFaceResponse = await getHuggingFaceResponse(userPrompt);
             res.json({ response: huggingFaceResponse });
-        } catch (error) {
-            res.status(500).json({ error: error.message });
         }
+    } catch (error) {
+        console.error('Error processing the chat request:', error);
+        res.status(500).json({ error: 'Error interno del servidor.' });
     }
 });
+
 
 module.exports = app;
