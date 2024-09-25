@@ -1,0 +1,10 @@
+[
+    {
+        "prompt": "¿Qué servicios ofreces?",
+        "response": "Ofrecemos servicios de desarrollo web, mantenimiento de servidores, y soporte técnico."
+    },
+    {
+        "prompt": "¿Cuáles son tus horarios de atención?",
+        "response": "Nuestros horarios son de lunes a viernes de 9:00 am a 6:00 pm."
+    }
+]
