@@ -2,9 +2,11 @@ const express = require('express');
 const axios = require('axios');
 const fs = require('fs');
 const fuzzy = require('fuzzy');
+const cors = require('cors');
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 
 const data = JSON.parse(fs.readFileSync('data.json', 'utf8'));
