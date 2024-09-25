@@ -1,10 +1,34 @@
 [
     {
-        "prompt": "¿Qué servicios ofreces?",
-        "response": "Ofrecemos servicios de desarrollo web, mantenimiento de servidores, y soporte técnico."
+        "prompt": "¿Qué es DevMark Agency?",
+        "response": "Somos Una Agencia Digital. DevMark Agency se especializa en desarrollo web, marketing digital, fotografía y diseño gráfico. Ofrecemos soluciones personalizadas y creativas para potenciar tu presencia en línea y alcanzar tus objetivos empresariales."
     },
     {
-        "prompt": "¿Cuáles son tus horarios de atención?",
-        "response": "Nuestros horarios son de lunes a viernes de 9:00 am a 6:00 pm."
+        "prompt": "¿Qué servicios ofrecen?",
+        "response": "Ofrecemos soluciones innovadoras en desarrollo web, marketing digital, fotografía y diseño gráfico, impulsando el éxito y crecimiento de tu negocio."
+    },
+    {
+        "prompt": "¿Qué es el diseño gráfico?",
+        "response": "Creación de piezas visuales atractivas y efectivas para fortalecer la identidad de tu marca, desde logotipos hasta campañas publicitarias, con un enfoque en creatividad y funcionalidad."
+    },
+    {
+        "prompt": "¿Qué es el desarrollo web?",
+        "response": "Diseño y creación de sitios web modernos, adaptables y eficientes, con soluciones personalizadas para optimizar la experiencia del usuario y mejorar la presencia en línea."
+    },
+    {
+        "prompt": "¿Qué es la fotografía profesional?",
+        "response": "Servicios fotográficos de alta calidad para productos, eventos y marketing, garantizando imágenes impactantes que potencien tu marca y resalten lo mejor de tu oferta."
+    },
+    {
+        "prompt": "¿Qué es el Community Management?",
+        "response": "Gestión estratégica de redes sociales, incluyendo la creación y uso de bots automatizados, con enfoque en contenido atractivo, interacción efectiva y respuestas rápidas para impulsar el crecimiento y la fidelización."
+    },
+    {
+        "prompt": "¿Cuál es la misión de DevMark Agency?",
+        "response": "En DevMark Agency nos dedicamos a transformar ideas en soluciones digitales innovadoras, brindando servicios personalizados en desarrollo web, aplicaciones a medida, marketing digital y consultoría tecnológica."
+    },
+    {
+        "prompt": "¿Cuál es la visión de DevMark Agency?",
+        "response": "Ser una agencia líder en la creación de experiencias digitales efectivas y creativas, reconocida por nuestra capacidad de adaptarnos a las necesidades cambiantes del mercado y ofrecer soluciones tecnológicas integrales que generen valor y éxito sostenible para nuestros clientes a nivel global."
     }
 ]
